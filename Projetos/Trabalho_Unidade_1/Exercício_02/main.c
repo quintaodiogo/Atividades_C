@@ -13,7 +13,7 @@ int main()
     scanf("%f", &tempo);
     velocidade = tempo * aceleracao;
     distancia = (aceleracao * pow(tempo, 2)) / 2;
-    trabalho = (massa * 1000) * pow(velocidade, 2) / 2;
+    trabalho = ((massa * 1000) * pow(velocidade, 2)) / 2;
     velocidade = velocidade * 3.6;
 
     printf("VELOCIDADE = %.2f\n", velocidade);
