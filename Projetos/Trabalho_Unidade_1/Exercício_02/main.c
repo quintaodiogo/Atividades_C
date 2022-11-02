@@ -17,8 +17,8 @@ int main()
     velocidade = velocidade * 3.6;
 
     printf("VELOCIDADE = %.2f\n", velocidade);
-    printf("ESPACO PERCORRIDO  =  %.2f\n", distancia);
-    printf("TRABALHO REALIZADO  =  %.2f\n", trabalho);
+    printf("ESPACO PERCORRIDO  =  %.2lf\n", distancia);
+    printf("TRABALHO REALIZADO  =  %.2lf\n", trabalho);
 
     return 0;
 }
